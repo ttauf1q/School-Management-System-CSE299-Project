@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.about{
+    width:100%;
+    padding: 78px 0px;
+    
+}
+
+.about img{
+height:auto;
+width:520px;
+}
+
+.about-text{
+    width:550px;
+}
+
+.main{
+    width:1130px;
+    max-width:95%;
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h1{
+    color: black;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text p{
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+ .facilities{
+    width:80%;
+    margin:auto;
+    text-align: center;
+    padding-top: 0;
+ }
+
+ .facilities-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom:5%;
+    text-align: left;
+    background:#fff3f3;
+    padding: 25px 12px;
+    box-sizing:border-box;
+    transition: 0.5s;
+ }
+
+ .facilities-col img{
+    width:100%;
+    border-radius: 10px;
+ }
+ .facilities-col p{
+    padding: 0;
+ }
+ .facilities-col h3{
+    margin-top:16px;
+    margin-bottom:15px;
+    text-align:left;
+ }
+
+ 
+ .facilities-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonials{
+    width: 80%;
+    margin:auto;
+    padding-top:100px;
+    text-align: center;
+}
+
+.testimonial-col{
+    flex-basis: 44%;
+    border-radius:10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: #fff3f3;
+    padding: 25px;
+    cursor:pointer;
+    display:flex;
+}
+.testimonial-col img{
+    height:40px;
+    margin-left:5px;
+    margin-right: 30px;
+    border-radius:50%;
+}
+  
